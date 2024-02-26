@@ -1,0 +1,20 @@
+
+.navbar-dark .navbar-nav .nav-link {
+    transition: transform 0.3s ease; 
+    color: rgb(253, 13, 13);
+    font-weight: bolder;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: yellow !important; 
+    transform: translateY(-3px); 
+  }
+  
+
+.app-navbar {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hide {
+  transform: translateY(-100%);
+}

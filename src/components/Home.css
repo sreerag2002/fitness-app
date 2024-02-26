@@ -1,0 +1,44 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden;  */
+  }
+  
+  .container {
+
+    /* background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw; Use 100vw to ensure full viewport width */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center; */
+    overflow: hidden; 
+    
+  }
+  
+  .text {
+    margin: 0px;
+    padding: 25%;
+    color: rgb(248, 252, 3);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+  }
+.text {
+  color: rgb(251, 255, 6); 
+  transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.text:hover {
+  color: red;
+  transform: translateY(-15px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
